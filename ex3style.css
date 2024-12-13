@@ -1,0 +1,77 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    padding-bottom: 1rem;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.footer{
+    padding-top: 1rem;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.text1-pad{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.text1{
+    background-color: gainsboro;
+    padding: 1rem;
+}
+.text2-pad{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.text2{
+    background-color: gray;
+    padding: 1rem;
+}
+@media(min-width: 600px) and (max-width: 900px){
+    main{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .text1-pad{
+        flex-basis: 50%;
+    }
+    .text2-pad{
+        flex-basis: 50%;
+    }
+    header{
+        padding: 1.5rem;
+    }
+    footer{
+        padding: 1.5rem;
+    }
+   
+}
+@media(min-width: 900px){
+    main{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .text1-pad{
+        flex-basis: 70%;
+    }
+    .text2-pad{
+        flex-basis: 30%;
+    }
+    header{
+        padding: 2.5rem;
+    }
+    footer{
+        padding: 2.5rem;
+    }
+}

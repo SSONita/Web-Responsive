@@ -1,0 +1,33 @@
+.container{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.control-contianer{
+    display: flex;
+    gap: 5rem;
+    position: relative;
+}
+.replacement-icon{
+    position: absolute;
+    right: 30px;
+    top: 25px;
+}
+.logo{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: larger;
+}
+@media(max-width: 768px){
+    .control-contianer{
+        visibility: hidden;
+    }
+}
+@media(min-width: 768px){
+    .replacement-icon{
+        visibility: hidden;
+    }
+}
